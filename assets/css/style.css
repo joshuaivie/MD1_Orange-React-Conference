@@ -97,6 +97,11 @@ header {
   width: 100%;
 }
 
+.description-2 {
+  border: 1px solid #e5e5e5;
+  background: white;
+}
+
 .emphasis-subtitle .h2 {
   font-family: "COCOGOOSE Regular", sans-serif;
 }
