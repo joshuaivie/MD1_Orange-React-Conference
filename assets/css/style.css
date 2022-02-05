@@ -214,6 +214,14 @@ a.cta-link:active {
   max-height: 100px;
 }
 
+.partner-logo {
+  padding: 0 1rem;
+}
+
+.partner-logo img {
+  image-rendering: optimizeQuality;
+}
+
 @media (min-width: 768px) {
   .hero .emphasis-header .h1 {
     font-size: 54px;
@@ -278,5 +286,9 @@ a.cta-link:active {
 
   .speakers-list .speaker .bio {
     max-height: max-content;
+  }
+
+  .partner-logo {
+    padding: 0 2rem;
   }
 }
