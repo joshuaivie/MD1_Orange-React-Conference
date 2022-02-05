@@ -101,6 +101,71 @@ header {
   font-family: "COCOGOOSE Regular", sans-serif;
 }
 
+.section-title {
+  display: block;
+  text-align: center;
+  position: relative;
+  font-weight: normal;
+  margin-bottom: 3rem;
+}
+
+.section-title::after {
+  position: absolute;
+  bottom: -50%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 2px;
+  width: 3rem;
+  content: "";
+  background: #ec5242;
+}
+
+.program {
+  background-image: url("../img/program-pattern.png");
+  background-repeat: repeat;
+}
+
+.program .program-items {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 0.5rem;
+}
+
+.program .program-item {
+  background: rgba(255, 255, 255, 0.1);
+  display: grid;
+  grid-template-columns: 17% 30% 47%;
+  grid-gap: 2.5%;
+  align-items: center;
+  padding: 1rem 0.5rem;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.program .program-item:hover {
+  border-color: #fff;
+}
+
+.program .program-item .title {
+  padding-left: 0.25rem;
+  color: #ec5242;
+}
+
+a.cta-link {
+  padding: 1.5rem 3rem;
+  background: #ec5242;
+  color: #fff;
+  content: "Join Orange React Developer Conference";
+  text-decoration: none;
+}
+
+a.cta-link:hover,
+a.cta-link:active {
+  color: #fff;
+  background-color: #d43e2d;
+}
+
 @media (min-width: 768px) {
   .hero .emphasis-header .h1 {
     font-size: 54px;
@@ -114,5 +179,47 @@ header {
   .nav-bottom {
     background: white;
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  }
+
+  .program .program-item {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 3rem 1.5rem;
+  }
+
+  .program .program-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  a.cta-link {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    position: relative;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    padding: 0;
+    background: none;
+  }
+
+  a.cta-link::after {
+    position: absolute;
+    bottom: -5%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 1px;
+    width: 100%;
+    content: "";
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+
+  a.cta-link:hover {
+    color: #ec5242;
+  }
+
+  a.cta-link:hover::after {
+    background: #ec5242;
   }
 }
