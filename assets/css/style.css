@@ -222,6 +222,15 @@ a.cta-link:active {
   image-rendering: optimizeQuality;
 }
 
+footer {
+  background-color: #f2f2f2;
+  font-size: 14px;
+}
+
+footer img {
+  max-height: 50px;
+}
+
 @media (min-width: 768px) {
   .hero .emphasis-header .h1 {
     font-size: 54px;

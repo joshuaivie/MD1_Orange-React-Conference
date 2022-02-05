@@ -1,7 +1,7 @@
 {
   "name": "orange-react-developer-conference",
   "version": "1.0.0",
-  "description": "Dark react developer conference is a fictitious conference for react frontend developers. This website is a conference website to display conference details. The design for ",
+  "description": "Orange react developer conference is a fictitious conference for react frontend developers. This website is a conference website to display conference details. The design for this project was gotten from Cindy Shin in Behance.",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
