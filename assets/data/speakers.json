@@ -3,36 +3,36 @@
     "name": "Dan Abramov",
     "role": "Co-Author of Redux and Create React App",
     "bio": "Dan Abramov is a software engineer at Facebook now Meta. Together with Andrew Clark, he created Redux. He also co-authored the Create React App. He is married to Kseniya Abramova and is currently living in London, United Kingdom.",
-    "profilePicture": ""
+    "profilePicture": "dan.png"
   },
   {
     "name": "Sarah Drasner",
     "role": "Director of Engineering, Core Developer Web at Google",
     "bio": "Sarah Drasner is an award-winning Speaker, Director of Engineering, Core Developer Web at Google, Former VP of Developer Experience at Netlify, Vue core team member, and Staff Writer at CSS-Tricks. Sarah is formerly Principal Lead of Emerging Markets, Cloud Advocates at Microsoft and Manager of UX & Engineering at Trulia/Zillow Group.",
-    "profilePicture": ""
+    "profilePicture": "sarah.png"
   },
   {
     "name": "Chris Coyier",
     "role": "Co-founder of CodePen and CSS-Tricks",
     "bio": "Chris is a web designer and developer. He writes about all things web at CSS-Tricks, talks about all things web at conferences around the world and on his podcast ShopTalk, and co-founded CodePen, a social development environment.",
-    "profilePicture": ""
+    "profilePicture": "chris.png"
   },
   {
     "name": "Chris Do",
     "role": "Founder, CEO - The Futur",
     "bio": "Chris Do is an Emmy award-winning designer, director, CEO and Chief Strategist of Blind and the founder of The Futur—an online education platform with the mission of teaching 1 billion people how to make a living doing what they love.",
-    "profilePicture": ""
+    "profilePicture": "chris-do.png"
   },
   {
     "name": "Nenne Adaora Nwodo",
     "role": "Software Engineer, Microsoft Mixed Reality",
     "bio": "Nenne Adaora Nwodo (who fondly likes to be called Adora), is a Software Engineer at Microsoft Mixed Reality based in Lagos, Nigeria. In 2018, she created a blog called AdoraHack where she publishes articles on Software Engineering, Productivity & Career Growth .",
-    "profilePicture": ""
+    "profilePicture": "adora.png"
   },
   {
     "name": "Samson Goddy",
     "role": "Co-founder of Open Source Community Africa",
     "bio": "Samson is the co-founder of Open Source Community Africa, a project that he cares about because it allows him to reflect his love for open source while building large projects that help the budding open source community in Africa.",
-    "profilePicture": ""
+    "profilePicture": "samson.png"
   }
 ]

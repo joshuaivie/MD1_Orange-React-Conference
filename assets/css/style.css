@@ -198,7 +198,7 @@ a.cta-link:active {
 
 .speakers-list .speaker .role::after {
   position: absolute;
-  bottom: -50%;
+  bottom: -25%;
   left: 0;
   height: 1px;
   width: 1.5rem;
@@ -273,6 +273,7 @@ a.cta-link:active {
 
   .speakers-list {
     grid-template-columns: 1fr 1fr;
+    grid-row-gap: 5rem;
   }
 
   .speakers-list .speaker .bio {
