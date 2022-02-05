@@ -1,12 +1,8 @@
+/* stylelint-disable csstree/validator */
+
 /* Import Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
 @import url("../fonts/cocogoose.css");
-
-h1 {
-  font-family: "COCOGOOSE Regular", sans-serif;
-  font-weight: normal;
-  font-size: 42px;
-}
 
 body {
   font-family: "Lato", sans-serif;
@@ -15,28 +11,108 @@ body {
   line-height: 4px;
 }
 
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
 .dark-bg {
+  background-color: #444;
+}
+
+.dark-bg-2 {
   background-color: #272a31;
 }
 
-.top-nav {
+.dark-text {
+  color: #444;
+}
+
+.nav-top {
   font-size: 14px;
+}
+
+.nav-bottom {
+  background: white;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 
 .logo img {
   height: 45px;
 }
 
-a.nav-link {
+.nav-bottom a.nav-link {
   color: #272a31;
 }
 
-a.nav-link:hover,
-a.nav-link.active {
-  color: #ec5242;
+.nav-bottom a.nav-link:hover,
+.nav-bottom a.nav-link.active {
+  color: #ec5242 !important;
 }
 
 .nav-link.emphasized-link {
   color: #ec5242;
   border: 5px solid #ec5242;
+}
+
+.hero {
+  background-color: #d3d3d3;
+  background-image: url("../img/hero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero .h1 {
+  color: #ec5242;
+}
+
+.hero .emphasis-header {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero .emphasis-header .h1 {
+  display: inline-block;
+  color: rgba(236, 83, 66, 0.65);
+  font-family: "COCOGOOSE Regular", sans-serif;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 45px;
+  background-color: #ec5242;
+  background-repeat: no-repeat;
+  background-image: url("../img/mask.png");
+  background-position: 50% 50%;
+  -moz-background-size: 100%;
+  background-size: cover;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+}
+
+.description {
+  border: 5px solid white;
+  background: rgba(211, 211, 211, 0.25);
+  width: 100%;
+}
+
+.emphasis-subtitle .h2 {
+  font-family: "COCOGOOSE Regular", sans-serif;
+}
+
+@media (min-width: 768px) {
+  .hero .emphasis-header .h1 {
+    font-size: 54px;
+    line-height: 60px;
+  }
+
+  .description {
+    width: 50%;
+  }
+
+  .nav-bottom {
+    background: white;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  }
 }
