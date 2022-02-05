@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Capstone: Speaker Conference
+# Orange React Developer Conference
 
 >
 
