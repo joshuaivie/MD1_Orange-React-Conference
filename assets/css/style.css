@@ -17,6 +17,15 @@ header {
   z-index: 10;
 }
 
+footer {
+  background-color: #f2f2f2;
+  font-size: 14px;
+}
+
+footer img {
+  max-height: 50px;
+}
+
 .dark-bg {
   background-color: #444;
 }
@@ -100,6 +109,10 @@ header {
 .description-2 {
   border: 1px solid #e5e5e5;
   background: white;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 295px;
 }
 
 .emphasis-subtitle .h2 {
@@ -183,6 +196,10 @@ a.cta-link:active {
   grid-template-columns: 35% 65%;
 }
 
+.partner-logo img {
+  image-rendering: optimizeQuality;
+}
+
 .speakers-list .speaker img {
   image-rendering: crisp-edges;
   width: 100%;
@@ -223,17 +240,44 @@ a.cta-link:active {
   padding: 0 1rem;
 }
 
-.partner-logo img {
-  image-rendering: optimizeQuality;
+.previous-conferences .new-york {
+  background-color: #ec5242;
+  background-image: url("../img/past/conference-1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 350px;
 }
 
-footer {
-  background-color: #f2f2f2;
-  font-size: 14px;
+.previous-conferences .london {
+  background-color: #ec5242;
+  background-image: url("../img/past/conference-2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 300px;
 }
 
-footer img {
-  max-height: 50px;
+.previous-conferences .new-york .overlay,
+.previous-conferences .london .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #ec5342ab;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.previous-conferences .overlay span {
+  color: #fff;
+  display: block;
+  font-weight: 700;
+}
+
+.previous-conferences .overlay span.year {
+  font-size: 3rem;
 }
 
 @media (min-width: 768px) {
@@ -304,5 +348,9 @@ footer img {
 
   .partner-logo {
     padding: 0 2rem;
+  }
+
+  .description-2 {
+    max-height: max-content;
   }
 }
