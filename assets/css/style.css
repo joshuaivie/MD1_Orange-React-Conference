@@ -166,6 +166,54 @@ a.cta-link:active {
   background-color: #d43e2d;
 }
 
+.speakers-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 3rem;
+  grid-row-gap: 3rem;
+}
+
+.speakers-list .speaker {
+  display: grid;
+  grid-template-columns: 35% 65%;
+}
+
+.speakers-list .speaker img {
+  image-rendering: crisp-edges;
+  width: 100%;
+  padding-right: 1.5rem;
+}
+
+.speakers-list .speaker .name h4 {
+  margin: 0;
+}
+
+.speakers-list .speaker .role {
+  margin: 0.25rem 0 1.5rem;
+  font-style: italic;
+  color: #ec5242;
+  display: block;
+  position: relative;
+}
+
+.speakers-list .speaker .role::after {
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  height: 1px;
+  width: 1.5rem;
+  content: "";
+  background: #ec5242;
+}
+
+.speakers-list .speaker .bio {
+  display: block;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 100px;
+}
+
 @media (min-width: 768px) {
   .hero .emphasis-header .h1 {
     font-size: 54px;
@@ -221,5 +269,13 @@ a.cta-link:active {
 
   a.cta-link:hover::after {
     background: #ec5242;
+  }
+
+  .speakers-list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .speakers-list .speaker .bio {
+    max-height: max-content;
   }
 }
