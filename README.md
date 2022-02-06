@@ -1,13 +1,26 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Capstone: Speaker Conference
+# Orange React Developer Conference
 
->
+> Orange react developer conference is a fictitious conference for react frontend developers. This website is a conference website to display conference details. The design for this project was gotten from [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
+
+![screenshot](./assets/screenshot.png)
 
 ## Built With
 
-- HTML
-- CSS
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap 5
+- JQuery
+- Owl Carousel
+
+## Live Link
+
+You can can find a live link to the project here: [Project](https://joshuaivie.github.io/orange-react-conference/)
+
+_Presentation video of the website_
+https://www.loom.com/share/e9b9bf12e54f41e0b9a8ecfc53a9c4d4
 
 ## Authors
 
