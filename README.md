@@ -19,7 +19,8 @@
 
 You can can find a live link to the project here: [Project](https://joshuaivie.github.io/orange-react-conference/)
 
-[Presentation video of the website](https://www.loom.com/share/e9b9bf12e54f41e0b9a8ecfc53a9c4d4)
+_Presentation video of the website_
+https://www.loom.com/share/e9b9bf12e54f41e0b9a8ecfc53a9c4d4
 
 ## Authors
 
