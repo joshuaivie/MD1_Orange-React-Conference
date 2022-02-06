@@ -38,6 +38,10 @@ footer img {
   color: #444;
 }
 
+.orange-text {
+  color: #ec5242;
+}
+
 .nav-top {
   font-size: 14px;
 }
@@ -152,7 +156,7 @@ footer img {
 .program .program-item {
   background: rgba(255, 255, 255, 0.1);
   display: grid;
-  grid-template-columns: 17% 30% 47%;
+  grid-template-columns: 1fr 1fr 4fr;
   grid-gap: 2.5%;
   align-items: center;
   padding: 1rem 0.5rem;
